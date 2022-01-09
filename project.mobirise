@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "madebygideon",
+    "name": "madebygideon.tk",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -50,7 +50,7 @@
     "versionPublish": "5.3.10",
     "imageResize": true,
     "favicon": false,
-    "mbrsiteDomain": "vns4oxbm82",
+    "mbrsiteDomain": "egx4gh0d3i",
     "cssOptimize": true,
     "lazyLoad": true,
     "lazyType": "nothing",
@@ -58,7 +58,12 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
-    "gdpr": false,
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
     "pwa-switcher": true,
     "PWA": {
       "enabled": true,
@@ -68,20 +73,24 @@
     },
     "screenshot": "screenshot.png",
     "witsec-white-label": false,
-    "chatbutton": {},
-    "cookiesAlert": {
-      "customDialogSelector": false,
-      "colorText": "#424a4d",
-      "colorBg": "#eaeff1",
-      "colorButton": "",
-      "colorLink": "#424a4d",
-      "underlineLink": true,
-      "opacity": "99",
-      "opacityOverlay": "80",
-      "text": "Nous utilisons des cookies pour vous offrir la meilleure expérience.",
-      "textButton": "OK"
+    "chatbutton": {
+      "phone": "+12345678901",
+      "message": "",
+      "size": "65px",
+      "backgroundColor": "#e5ddd5",
+      "position": "left",
+      "popupMessage": "Salut !👋\n\nn'hesitez à nous laisser un message sur whatsapp ! 🔥\n\nmadebygideon ",
+      "showPopup": true,
+      "showOnIE": true,
+      "autoOpenTimeout": "0",
+      "headerColor": "#39847a",
+      "headerTitle": "👋comment peut on vous aider!",
+      "placeholder": "Type here",
+      "zIndex": 10,
+      "enabled": true
     },
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
